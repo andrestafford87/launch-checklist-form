@@ -18,6 +18,7 @@ function showMission() {
                             <img src="${json[index].image}">`;
                 destination.innerHTML = html;
             }
+           
             else {
                 console.log('document elements not found!');
             }
